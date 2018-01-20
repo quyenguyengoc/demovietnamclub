@@ -1,0 +1,40 @@
+doctype html
+html
+  head
+    title Vietnam club
+    meta name="viewport" content="width=1170, initial-scale=1, user-scalable=no"
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'
+    link href='https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/2.8.0/css/flag-icon.min.css' rel='stylesheet' type='text/css'
+    link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    
+  body
+    #fb-root
+      javascript:
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.9&appId=484507625050435";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    .container-fluid
+      .row
+        #header
+          .container
+            = render 'shared/header'
+            - if flash[:notice]
+              .alert.alert-info= notice
+            - if flash[:alert]
+              .alert.alert-danger= alert
+        #main-container
+          .container
+            = yield
+        #footer
+          .container
+            = render 'shared/footer'

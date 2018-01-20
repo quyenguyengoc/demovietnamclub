@@ -1,0 +1,68 @@
+#category-show-register
+  .row
+    .col-sm-8
+      a.btn-primary href="#{new_user_path}"
+        .well.well-lg.text-center.background-inherit
+          h3 賛助会員
+          h3 入会のご案内
+      p
+        | 一般社団法人VietnamCLubは、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。
+        br
+        | ベトナムと日本の交流という大きな目的を持って活動しておりますが、幣社団だけで、すべてを行えるとは考えておりません。多くの方々のご理解とご協力があってこそ、両国間の交流が達成されるものと考えております。この目的に賛同し、両国の発展にご尽力いただける方（個人・事業者・団体）を賛助会員として募集しています。
+      
+      /Rule1
+      /! Trigger the modal with a text
+      p
+        a data-target="#myRule1" data-toggle="modal" type="button"  ★　賛助会員要領
+      /! Modal
+      #myRule1.modal.fade role="dialog" 
+        modal-dialog
+        /! Modal content
+        .modal-content
+          .modal-body
+            button.close data-dismiss="modal" type="button"  &times;
+            p= image_tag 'rules/rule1.jpg', class: 'width-100'
+            button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+
+      /Rule2
+      /! Trigger the modal with a text
+      p
+        a data-target="#myRule2" data-toggle="modal" type="button"  ★　賛助会員規定
+      /! Modal
+      #myRule2.modal.fade role="dialog" 
+        modal-dialog
+        /! Modal content
+        .modal-content
+          .modal-body
+            button.close data-dismiss="modal" type="button"  &times;
+            p= image_tag 'rules/rule2.jpg', class: 'width-100'
+            button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+
+      br
+      br
+      a.btn-danger href="#{new_student_path}"
+        .well.well-lg.text-center.background-inherit
+          h3 学生会員
+          h3 入会のご案内
+      p 般社団法人VietnamClubは、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。両国の発展にご尽力いただける方（個人・事業者・団体）を賛助会員として募集している同時、無料会員としてベトナム人留学生の皆さんの参加を歓迎しています。
+
+      br
+      br
+      .btn-warning href="#"
+        .well.well-lg.text-center.background-inherit
+          h3 Adviser
+          h3 募　　集
+      p 
+        | ベトナム及び近隣諸国でのお仕事の経験と知識をおかしください。ベトナム進出企業は勿論、こらから進出する企業、日本に来ている留学生も皆さまのご支援をまち望んでいます。
+        br
+        | まずは、VietnamClubにご連絡ください。
+        br
+        | TEL: 06(6956)4115
+        br
+        | Email: vnclub.j@gmail.com
+
+      br
+      br
+
+    .col-sm-4
+      = render 'shared/advertise'

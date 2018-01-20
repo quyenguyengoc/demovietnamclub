@@ -1,0 +1,24 @@
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: vietnam_club_development
+  pool: 5
+  username: <%= ENV["DATABASE_USER"] %>
+  password: <%= ENV["DATABASE_PASSWORD"] %>
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: vietnam_club_test
+  pool: 5
+  username: <%= ENV["DATABASE_USER"] %>
+  password: <%= ENV["DATABASE_PASSWORD"] %>
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: vietnam_club_production
+  pool: 5
+  username:
+  password:

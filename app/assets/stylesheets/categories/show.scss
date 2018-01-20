@@ -1,0 +1,38 @@
+#category-show-vbc {
+  .nav-tabs {
+    border: none;
+  }
+
+  .panel-body {
+    min-height: 90px;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: none;
+
+    .panel-body {
+      background-color: #e75353;
+      color: white;
+    }
+  }
+  .modal-footer {
+    text-align: center;
+  }
+
+}
+
+#category-show-adviser {
+  .adviser-card {
+    margin-bottom: 10px; 
+    .media {
+      min-height: 100px;
+    }
+  }
+}
+
+#category-show-about-us{
+  .main-image {
+    width: 50%;
+    float: right;
+  }
+}

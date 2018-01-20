@@ -1,0 +1,56 @@
+#header {
+  .navbar-default {
+    background-color: transparent;
+    border: none;
+  }
+
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #e75353;
+  }
+
+  a.navbar-brand {
+    .image-brand-header, .brand-name-text {
+      display: inline-block;
+    }
+
+    .brand-name-text {
+      margin-left: 10px;
+    }
+  }
+}
+
+.main-navbar{
+  li:before {
+    content:""; 
+    position: absolute; 
+    top: 0; 
+    left: 5%;
+    right: 5%;
+    height: 2px; 
+    width: 90%;
+    background: rgba(231, 83, 83, 0.8); 
+  }
+
+  li:after {
+    content:""; 
+    position: absolute; 
+    bottom: 0; 
+    left: 5%;
+    right: 5%;
+    height: 2px; 
+    width: 90%;
+    background: rgba(231, 83, 83, 0.8); 
+  }
+  .navbar-nav {
+    width: 100%;
+
+    li {
+      width: 20%;
+
+      a {
+        text-align: center;
+      }
+    }
+  }
+}

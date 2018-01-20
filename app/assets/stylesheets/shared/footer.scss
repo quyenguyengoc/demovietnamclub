@@ -1,0 +1,21 @@
+#footer {
+  .button-wrap {
+    display: inline-block;
+    width: 20%;
+    padding: 5px;
+  }
+
+  .footer-buttons-group {
+    a {
+      width: 100%;
+      height: 55px;
+      white-space: pre-line;
+      display: table;
+    }
+
+    span {
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+}
