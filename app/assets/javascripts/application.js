@@ -18,5 +18,15 @@
 $( document ).ready(function() {
   $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
     $('#category-show-vbc #main-content').hide();
-  })
+  });
+  $('a.language').on('click', function (e) {
+    $.ajax({
+      method: 'PUT',
+      url: '/switch_language/update',
+      data: {language: $(this).data("language")}
+    }).done(function() {
+      location.reload();
+    });
+  });
+  $('a.dropdown-toggle').dropdown();
 })

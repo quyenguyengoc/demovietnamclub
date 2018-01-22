@@ -10,20 +10,27 @@ nav.navbar.navbar-default
       a.navbar-brand href="#{root_path}"
         =image_tag 'logo.png', class: 'width-100-px image-brand-header'
         span.brand-name-text = t "layout.organization_name"
-    /  #bs-example-navbar-collapse-1.collapse.navbar-collapse
-    /    ul.nav.navbar-nav.navbar-right
-    /     li
-    /       a href="#"
-    /         span.flag-icon.flag-icon-jp
-    /         | 日本語
-    /      li
-    /        a href="http://vncfortest.herokuapp.com/categories/4"
-    /          span.flag-icon.flag-icon-vn
-    /          | Tiếng việt
-    /     li
-    /       a href="#"
-    /         span.flag-icon.flag-icon-gb
-    /         | English
+
+    #navbar.navbar-collapse.collapse.navbar-right
+      ul.nav.navbar-nav
+        li.dropdown
+          a.dropdown-toggle data-toggle="dropdown" role="button" aria-expanded="false" href="#"
+            - language = I18n.default_locale
+            - if language == :ja
+              span.flag-icon.flag-icon-jp
+              | 日本語
+            - else
+              span.flag-icon.flag-icon-vn
+              | Tiếng việt
+            ul.dropdown-menu role="menu"
+              li
+                a.language href="javascript:void(0)" data-language="ja"
+                  span.flag-icon.flag-icon-jp
+                  | 日本語
+              li
+                a.language href="javascript:void(0)" data-language="vi"
+                  span.flag-icon.flag-icon-vn
+                  | Tiếng việt
 
 nav.navbar.navbar-default.main-navbar
   .container-fluid
