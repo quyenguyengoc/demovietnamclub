@@ -2,48 +2,48 @@
   .row
     .col-sm-8
       .col-sm-6
-        a.btn-warning data-target="#bussinessClub1" data-toggle="modal" type="button" 
+        a.btn-warning data-target="#bussinessClub1" data-toggle="modal" type="button"
           .well.well-lg.text-center.btn-primary.background-inherit
-            h4「留学生」翻訳サービス
+            h4 = t "button.translation_service"
         /! Modal
-        #bussinessClub1.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
-          .modal-dialog role="document" 
+        #bussinessClub1.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+          .modal-dialog role="document"
             .modal-content
               .modal-header
-                button.close aria-label="Close" data-dismiss="modal" type="button" 
+                button.close aria-label="Close" data-dismiss="modal" type="button"
                   span aria-hidden="true"  &times;
                 h4#myModalLabel.modal-title
               .modal-body
                 .panel.panel-primary
                   .panel-heading
-                    h3.panel-title「留学生」翻訳サービス
+                    h3.panel-title = t "categories.business_club.modal_title.translation_service"
                   .panel-body
                     p= image_tag '8.png', class: 'width-100'
               .modal-footer
-                button.btn.btn-default data-dismiss="modal" type="button" 閉じる
-                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" 問合せ
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
       .col-sm-6
-        a.btn-warning data-target="#bussinessClub2" data-toggle="modal" type="button" 
+        a.btn-warning data-target="#bussinessClub2" data-toggle="modal" type="button"
           .well.well-lg.text-center.btn-primary.background-inherit
-            h4「留学生」告知サービス
+            h4 = t "button.announcement_service"
         /! Modal
-        #bussinessClub2.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1" 
-          .modal-dialog role="document" 
+        #bussinessClub2.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+          .modal-dialog role="document"
             .modal-content
               .modal-header
-                button.close aria-label="Close" data-dismiss="modal" type="button" 
+                button.close aria-label="Close" data-dismiss="modal" type="button"
                   span aria-hidden="true"  &times;
-                h4#myModalLabel.modal-title 
+                h4#myModalLabel.modal-title
               .modal-body
                 .panel.panel-primary
                   .panel-heading
-                    h3.panel-title「留学生」告知サービス
+                    h3.panel-title = t "categories.business_club.modal_title.announcement_service"
                   .panel-body
                     p= image_tag '9.png', class: 'width-100'
               .modal-footer
-                button.btn.btn-default data-dismiss="modal" type="button" 閉じる
-                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" 問合せ
-      - if @vfsc_contents.present? 
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
+      - if @vfsc_contents.present?
         - @vfsc_contents.order(id: :desc).each do |content|
           .col-sm-12
             .panel.panel-warning
@@ -52,7 +52,7 @@
               .panel-body
                 p= simple_format content.body
                 - if content.title != "セミナー・イベント情報"
-                  p 
-                    a.btn.btn-default href="#{new_student_path}" 学生会員入会のご案内
+                  p
+                    a.btn.btn-default href="#{new_student_path}" = t("button.student_register")+t("button.register")
     .col-sm-4
       = render 'shared/advertise'

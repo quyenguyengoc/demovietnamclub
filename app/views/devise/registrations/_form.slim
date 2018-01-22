@@ -1,197 +1,133 @@
 = simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'form-horizontal custom-form' }) do |f|
   - if resource.is_member?
-    h1.text-center 賛助会員入会申込書
-    h4 一般社団法人 Vietnam Club
-    h4 代表理事　村上 福壽郎　殿
+    h1.text-center = t "register.member.title"
   - elsif resource.is_student?
-    h1.text-center 学生会員入会申込書
-    h4 一般社団法人 Vietnam Club
-    h4 代表理事　村上 福壽郎　殿
+    h1.text-center = t "register.student.title"
+  h4 = t "layout.organization_name"
+  h4 = t "register.representative"
   = f.error_notification
-  = f.input :register_date, wrapper: :horizontal_form, label: '申　込　日'
+  = f.input :register_date, wrapper: :horizontal_form, label: t("register.form.register_date")
   - if resource.is_member?
     .form-group
-      label.col-sm-2.control-label.custom-label  賛 助 会 員
-      .col-sm-10 
-        h4 2,000円/月
+      label.col-sm-2.control-label.custom-label = t "register.form.member.member_support"
+      .col-sm-10
+        h4 = t "register.form.member.sponsor_fee"
     .form-group.radio_buttons.optional.user_invoice
-      label.col-sm-2.control-label.custom-label.radio_buttons.optional 領収書発行
+      label.col-sm-2.control-label.custom-label.radio_buttons.optional = t "register.form.member.received_sponsor"
       .col-sm-10
         input name="user[invoice]" type="hidden" value=""
         span.radio
-          label for="user_invoice_true" 
+          label for="user_invoice_true"
             input#user_invoice_true.form-control.radio_buttons.optional name="user[invoice]" type="radio" value="true"
-            span 必要
+            span = t "register.form.member.agree_received_sponsor"
         span.radio
-          label for="user_invoice_false" 
+          label for="user_invoice_false"
             input#user_invoice_false.form-control.radio_buttons.optional name="user[invoice]" readonly="readonly" type="radio" value="false"
-            span 不要
+            span = t "register.form.member.disagree_received_sponsor"
 
   .form-group
-    label.col-sm-2.control-label.custom-label  申 込 情 報
+    label.col-sm-2.control-label.custom-label = t "register.form.title"
   - if resource.is_member?
     table.table.table-bordered
       tbody
         tr
-          th.col-sm-2 rowspan="2" 会社名団体名
+          th.col-sm-2 rowspan="2" = t "register.form.member.vocal_title"
           td colspan="2"
-            = f.input :vocal, label: false, input_html: { class: 'table-input' }, placeholder: 'フリガナ'
+            = f.input :vocal, label: false, input_html: { class: 'table-input' }, placeholder: t("register.form.member.vocal_placeholder")
         tr
           td colspan="2"
             = f.input :enterprise_name, label: false, input_html: { class: 'table-input' }
         tr
-          th 所在地
+          th = t "register.form.member.address_title"
           td colspan="2"
-            = f.input :address, label: '〒', input_html: { class: 'table-input' }
+            = f.input :address, label: t("register.form.member.address_symbol"), input_html: { class: 'table-input' }
         tr
-          th rowspan="5" 会社名団体名
-          td= f.input :full_name, label: "氏名", input_html: { class: 'table-input' }
-          td= f.input :position, label: "役職", input_html: { class: 'table-input' }
+          th rowspan="5" = t "register.form.member.name_info"
+          td= f.input :full_name, label: t("register.form.member.full_name"), input_html: { class: 'table-input' }
+          td= f.input :position, label: t("register.form.member.position"), input_html: { class: 'table-input' }
         tr
-          td colspan="2"= f.input :department, label: "部署", input_html: { class: 'table-input' }
+          td colspan="2"= f.input :department, label: t("register.form.member.department"), input_html: { class: 'table-input' }
         tr
-          td= f.input :tel, label: "TEL", input_html: { class: 'table-input' }
-          td= f.input :fax, label: "FAX", input_html: { class: 'table-input' }
+          td= f.input :tel, label: t("register.form.member.phone"), input_html: { class: 'table-input' }
+          td= f.input :fax, label: t("register.form.member.fax"), input_html: { class: 'table-input' }
         tr
-          td colspan="2"= f.input :email, label: "E-mail", input_html: { class: 'table-input' }
+          td colspan="2"= f.input :email, label: t("register.form.member.email"), input_html: { class: 'table-input' }
         tr
-          td colspan="2"= f.input :url, label: "URL", input_html: { class: 'table-input' }
+          td colspan="2"= f.input :url, label: t("register.form.member.url"), input_html: { class: 'table-input' }
         tr
-          td 通信欄
+          td = t "register.form.member.comment"
           td colspan="2"= f.input :other, label: false, input_html: { class: 'table-input' }
-    button.btn.btn-default data-target="#myModal" data-toggle="modal" type="button" 
-      | 登録
-    #myModal.modal.fade role="dialog" tabindex="-1" 
-      .modal-dialog.modal-lg role="document" 
+    button.btn.btn-default data-target="#myModal" data-toggle="modal" type="button" = t "register.form.register"
+    #myModal.modal.fade role="dialog" tabindex="-1"
+      .modal-dialog.modal-lg role="document"
         .modal-content
           .modal-header
-            button.close aria-label="Close" data-dismiss="modal" type="button" 
+            button.close aria-label="Close" data-dismiss="modal" type="button"
               span aria-hidden="true"  &times;
             h4.modal-title
           .modal-body
-            h2.text-center 賛助会員募集のご案内
-            p 1.  目的
-            p 一般社団法人は、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。
-            p ベトナムと日本の交流という大きな目的を持って活動しておりますが、幣社団だけで、すべてを行えるとは考えておりません。多くの方々のご理解とご協力があってこそ、両国間の交流が達成されるものと考えております。この目的に賛同し、両国の発展にご尽力いただける方（個人・事業者・団体）を賛助会員として募集しています。
+            h2.text-center = t "register.form.member.guide_title"
+            - t("register.form.member.guide_content").each do |c|
+              p = c
 
-            p 2.  活動
-            p（1）ベトナム留学生団体など、日本で頑張る学生を応援するための活動。
-            p「応援団体」  
-            p ・ベトナム青年学生協会VYSA－OSKA　http://vysa-osaka.org/
-            p ・在大阪ベトナム総領事館が主催する、ベトナムと日本との文化交流イベント
-            p （2）留学生や若手の方々と共に、日本企業文化を知り、日本で働くためのノウハウ
-            p を蓄積する活動を企画。
-            p （3）日本国内のビジネスから飛躍して、海外進出を模索する企業様へ向けての海外
-            p 進出基礎セミナーの開催。
-            p （4）ベトナム文化・生活・ビジネスに関する情報発信活動。
-            p （5）海外で活躍したアドバイザーからのアドバイス活動。
-            p （6）会員企業の交流会の開催。
-
-            p 3．年会費
-            p 24,000円
-            p ※年会費の算定期間は、毎年８月１日～７月３１日とします。
-            p ※途中入会の場合は申込日から月割にて計算させて頂きます。
-            p ※途中退会の場合の返金はございません。
-
-            p 4.  特典
-            p 会員のみ活用可能なサービス若しくは会員価格にてサービスを享受でいます。
-            p ・ベトナム留学生との交流イベント
-            p 　 ・留学生翻訳サービス
-            p 　 ・留学生への告知サービス
-            p 　 ・現地大学生ベトナム通訳サービス
-            p 　 ・ベトナムセミナー、交流会イベント
-            p 　 ・ベトナム情報の配信
-            p 　 ・よろずメール相談
-
-            h3.text-center 賛助会員　会員規約
-            p 1.目的
-            p 本規約は、一般社団法人Vietnam clubの賛助会員ついて定める。
-            p 2.入会
-            p 本法人の賛助会員となるには、所定の様式による申込みをし、会費を入金することにより承認されるものとする。
-            p 3.年会費および協賛金
-            p 年会費
-            p 賛助会員（個人会員/企業会員）　24,000円
-
-            p 申込日を入会日とし年会費の算定期間は、毎年８月１日～７月３１日とします。
-            p 途中入会の場合は申込日から月割にて計算させて頂きます。
-            p 2年目より会費は年に1回、当法人から更新を通知する。
-            p 4.特典の提供
-            p 本法人は、正会員および賛助会員に対し特典を提供する。
-            p 特典内容は賛助会員募集のご案内に基づくものとする。
-            p 5.退会
-            p 賛助会員は、1ヶ月以上前に本法人に対し退会届を提出することにより、任意に退会することができる。ただし、既納された会費は返還されない。 
-            p 6.除名
-            p 本法人は、賛助会員が下記の一つに該当する行為を行った場合、総会の決議によりその会員を除名することができる。なお、除名された会員に対し、本法人はp 既納された会費を返還しない。
-            p 1.本法人の定款または本規約に違反した場合
-            p 2.犯罪等によって本法人の信用を失墜させた場合
-            p 3.本法人の名誉を毀損し、または本法人の目的に反する行為をした場合
-            p 4.会費を納入期限から3ヶ月以内に納入しなかった場合
-            p 7.個人情報の保護
-            p 本法人は、賛助会員の個人情報について、本人の承諾なくしてその情報を公開または使用しない。会員の退会後についても同様とする。
-            p 8.賠償ほか
-            p 本法人の責に帰さない活動において、賛助会員が本法人や他の会員、第三者に対して損害を与えた場合、本法人はその損害に対して賠償する責任を負わない。
-            p また、賛助会員が本規約に反し、または不正、違法な行為によって本法人に損害を与えた場合、本法人は当該会員に対して、損害賠償の請求を行うことができる。
-            p 附則
-            p この規定は、平成29年4月1日より施行する。 
-
-
-
+            h3.text-center = t "register.form.member.term_title"
+            - t("register.form.member.term_content").each do |c|
+              p = c
           .modal-footer
-            button.btn.btn-default data-dismiss="modal" type="button"  Close
-            = f.button :submit, "登録"
+            button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+            = f.button :submit, t("register.form.register")
   - elsif resource.is_student?
     table.table.table-bordered
       tbody
         tr
-          th.col-sm-2 rowspan="2" 氏名
-          td= f.input :vocal, label: false, input_html: { class: 'table-input' }, placeholder: 'フリガナ'
-          td.col-sm-2.text-center 性別
+          th.col-sm-2 rowspan="2" = t "register.form.student.vocal_title"
+          td= f.input :vocal, label: false, input_html: { class: 'table-input' }, placeholder: t("register.form.student.vocal_placeholder")
+          td.col-sm-2.text-center = t "register.form.student.gender_title"
         tr
           td = f.input :enterprise_name, label: false, input_html: { class: 'table-input' }
           td
             input name="user[gender]" type="hidden" value=""
             span.radio
-              label for="user_invoice_true" 
+              label for="user_invoice_true"
                 input#user_invoice_true.form-control.radio_buttons.optional name="user[gender]" type="radio" value="男"
-                span 男
+                span = t "register.form.student.male"
             span.radio
-              label for="user_invoice_false" 
+              label for="user_invoice_false"
                 input#user_invoice_false.form-control.radio_buttons.optional name="user[gender]" readonly="readonly" type="radio" value="女"
-                span 女
+                span = t "register.form.student.female"
         tr
-          td 生年月日
+          td = t "register.form.student.birthday_title"
           td colspan="2"= f.input :birthday, label: false
         tr
-          th 所在地
+          th = t "register.form.student.address_title"
           td colspan="2"
-            = f.input :address, label: '〒', input_html: { class: 'table-input' }
+            = f.input :address, label: t("register.form.student.address_symbol"), input_html: { class: 'table-input' }
         tr
-          th TEL
+          th = t "register.form.student.phone"
           td colspan="2"
             = f.input :tel, label: false, input_html: { class: 'table-input' }
         tr
-          th E-mail
+          th = t "register.form.student.email"
           td colspan="2"
             = f.input :email, label: false, input_html: { class: 'table-input' }
         tr
-          th 学校名
+          th = t "register.form.student.school_title"
           td= f.input :school_name, label: false, input_html: { class: 'table-input' }
-          td= f.input :school_year, label: false, input_html: { class: 'table-input' }, placeholder: '学年'
+          td= f.input :school_year, label: false, input_html: { class: 'table-input' }, placeholder: t("register.form.student.school_placeholder")
         tr
-          th 所属学部研究科名
+          th = t "register.form.student.education_title"
           td colspan="2"
             = f.input :education, label: false, input_html: { class: 'table-input' }
-    button.btn.btn-default data-target="#myModal" data-toggle="modal" type="button" 
-      | 登録
-    #myModal.modal.fade role="dialog" tabindex="-1" 
-      .modal-dialog.modal-lg role="document" 
+    button.btn.btn-default data-target="#myModal" data-toggle="modal" type="button" = t "register.form.register"
+    #myModal.modal.fade role="dialog" tabindex="-1"
+      .modal-dialog.modal-lg role="document"
         .modal-content
           .modal-header
-            button.close aria-label="Close" data-dismiss="modal" type="button" 
+            button.close aria-label="Close" data-dismiss="modal" type="button"
               span aria-hidden="true"  &times;
             h4.modal-title
           .modal-body
-            h2.text-center ベトナム人留学生無料会員募集のご案内
+            h2.text-center = t "register.form.student.info_title"
             p 1.  目的
             p 一般社団法人は、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。
             p 両国の発展にご尽力いただける方（個人・事業者・団体）を賛助会員として募集している同時、無料会員としてベトナム人留学生の皆さんの参加を歓迎しています。
@@ -203,7 +139,7 @@
             p 3.  会費　
             p　無料
 
-            h3.text-center 賛助会員　会員規約
+            h3.text-center = t "register.form.student.term_title"
             p 1.目的
             p 本規約は、一般社団法人Vietnam clubの賛助会員ついて定める。
             p 2.入会
@@ -214,7 +150,7 @@
             p 本法人は、正会員および賛助会員に対し特典を提供する。
             p 特典内容は賛助会員募集のご案内に基づくものとする。
             p 5.退会
-            p 賛助会員は、1ヶ月以上前に本法人に対し退会届を提出することにより、任意に退会することができる。ただし、既納された会費は返還されない。 
+            p 賛助会員は、1ヶ月以上前に本法人に対し退会届を提出することにより、任意に退会することができる。ただし、既納された会費は返還されない。
             p 6.除名
             p 本法人は、賛助会員が下記の一つに該当する行為を行った場合、総会の決議によりその会員を除名することができる。なお、除名された会員に対し、本法人は既納された会費を返還しない。
             p 1.本法人の定款または本規約に違反した場合
@@ -226,14 +162,12 @@
             p 本法人の責に帰さない活動において、賛助会員が本法人や他の会員、第三者に対して損害を与えた場合、本法人はその損害に対して賠償する責任を負わない。
             また、賛助会員が本規約に反し、または不正、違法な行為によって本法人に損害を与えた場合、本法人は当該会員に対して、損害賠償の請求を行うことができる。
             p 附則
-            p この規定は、平成29年4月1日より施行する。 
+            p この規定は、平成29年4月1日より施行する。
 
           .modal-footer
-            button.btn.btn-default data-dismiss="modal" type="button"  Close
-            = f.button :submit, "登録"
+            button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+            = f.button :submit, t("register.form.register")
   .form-group
-    .col-sm-12 
-      p ※ご記載いただきました個人情報につきましては、本社団の会員管理に限り利用させていただきます。
-      p 一般社団法人　Vietnam Club
-      p ご返送先 FAX: 06 - 6956 -1115
-      p ご返送先 E-mail: vnclub.j@gmail.com
+    .col-sm-12
+      - t("register.organization_info").each do |info|
+        p = info

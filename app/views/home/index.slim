@@ -1,43 +1,43 @@
 #home-index
   .row
     .col-sm-12
-      #home-carousel.carousel.slide data-ride="carousel" 
+      #home-carousel.carousel.slide data-ride="carousel"
         /! Indicators
         ol.carousel-indicators
-          li.active data-slide-to="0" data-target="#chome-carousel" 
-          li data-slide-to="1" data-target="#home-carousel" 
+          li.active data-slide-to="0" data-target="#chome-carousel"
+          li data-slide-to="1" data-target="#home-carousel"
         /! Wrapper for slides
-        .carousel-inner role="listbox" 
+        .carousel-inner role="listbox"
           .item.active
             =image_tag 'http://en.toureast.com/portals/0/img/country/japan/japan_header.jpg', class: 'width-100'
           .item
             =image_tag 'mu-cang-chai-crop.jpg', class: 'width-100'
         /! Controls
-        a.left.carousel-control data-slide="prev" href="#home-carousel" role="button" 
-          span.glyphicon.glyphicon-chevron-left aria-hidden="true" 
+        a.left.carousel-control data-slide="prev" href="#home-carousel" role="button"
+          span.glyphicon.glyphicon-chevron-left aria-hidden="true"
           span.sr-only Previous
-        a.right.carousel-control data-slide="next" href="#home-carousel" role="button" 
-          span.glyphicon.glyphicon-chevron-right aria-hidden="true" 
+        a.right.carousel-control data-slide="next" href="#home-carousel" role="button"
+          span.glyphicon.glyphicon-chevron-right aria-hidden="true"
           span.sr-only Next
   .row
     .col-sm-8
       .panel.panel-default
         .panel-heading
-          h3.panel-title Vietnam Club は
+          h3.panel-title = t "home.intro.title"
         .panel-body
-          p 一般社団法人Vietnam Clubは、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。
-          p ビジネスに役立つ情報発信や、在大阪ベトナム学生青年協会様にご協力頂きながら、留学生の方々に日本文化や習慣をご理解頂き、日本で働くためのノウハウを蓄積して頂く活動を行っています。
+          p = t "home.intro.organization"
+          p = t "home.intro.vision"
       .panel.panel-default
         .panel-heading
-          h3.panel-title 応援団体
+          h3.panel-title = t "home.support.title"
         .panel-body
-          p Vietnam Clubでは、下記の団体を応援しています。
-          p VYSA-OSAKA　在大阪ベトナム青年学生協会
-          p 
+          p = t "home.support.content"
+          p = t "home.support.group_name"
+          p
             a href="http://vysa-osaka.org/" http://vysa-osaka.org/
-          p 
-            .fb-page data-adapt-container-width="true" data-hide-cover="false" data-href="https://www.facebook.com/VYSA.OSAKA/" data-show-facepile="true" data-small-header="false" data-tabs="timeline" 
-              blockquote.fb-xfbml-parse-ignore cite="https://www.facebook.com/VYSA.OSAKA/" 
+          p
+            .fb-page data-adapt-container-width="true" data-hide-cover="false" data-href="https://www.facebook.com/VYSA.OSAKA/" data-show-facepile="true" data-small-header="false" data-tabs="timeline"
+              blockquote.fb-xfbml-parse-ignore cite="https://www.facebook.com/VYSA.OSAKA/"
                 a href="https://www.facebook.com/VYSA.OSAKA/"  VYSA-Osaka
 
 
@@ -57,138 +57,134 @@
       /ベトナムの「今」　新着情報
       .panel.panel-default
         .panel-heading
-          h3.panel-title ベトナムの「今」　新着情報
+          h3.panel-title = t "home.hot_news.title"
         .panel-body
           /ベトナムの「今」　新着情報　内容１
           /! Trigger the modal with a text
           p
-            a data-target="#myNews1" data-toggle="modal" type="button"  ベトナム固定電話市外局番変更案内 (170617)　【新着情報　20170712】
+            a data-target="#myNews1" data-toggle="modal" type="button" = t "home.hot_news.titles.first"
           /! Modal
-          #myNews1.modal.fade role="dialog" 
+          #myNews1.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
              .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news1.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
           /ベトナムの「今」　新着情報　内容２
           /! Trigger the modal with a text
           p
-            a data-target="#myNews2" data-toggle="modal" type="button"  ホーチミン市展示会情報 (7月～10月_170605)　【新着情報　20170712】
+            a data-target="#myNews2" data-toggle="modal" type="button" = t "home.hot_news.titles.second"
           /! Modal
-          #myNews2.modal.fade role="dialog" 
+          #myNews2.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
               .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news2.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
           /ベトナムの「今」　新着情報　内容3
           /! Trigger the modal with a text
           p
-            a data-target="#myNews3" data-toggle="modal" type="button"  輸出及び国内での商品を販売する企業に対するVATの還付に付いて
+            a data-target="#myNews3" data-toggle="modal" type="button" = t "home.hot_news.titles.third"
           /! Modal
-          #myNews3.modal.fade role="dialog" 
+          #myNews3.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
               .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news3.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
           /ベトナムの「今」　新着情報　内容4
           /! Trigger the modal with a text
           p
-            a data-target="#myNews4" data-toggle="modal" type="button"  外国人投資家のための相互連絡機構による投資登録及び企業登録手続
+            a data-target="#myNews4" data-toggle="modal" type="button" = t "home.hot_news.titles.fourth"
           /! Modal
-          #myNews4.modal.fade role="dialog" 
+          #myNews4.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
               .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news4.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
           /ベトナムの「今」　新着情報　内容5
           /! Trigger the modal with a text
           p
-            a data-target="#myNews5" data-toggle="modal" type="button"  従業員の通勤のための推定ガソリン代はPITの免税対象外となる
+            a data-target="#myNews5" data-toggle="modal" type="button" = t "home.hot_news.titles.fifth"
           /! Modal
-          #myNews5.modal.fade role="dialog" 
+          #myNews5.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
               .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news5.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
           /ベトナムの「今」　新着情報　内容6
           /! Trigger the modal with a text
           p
-            a data-target="#myNews6" data-toggle="modal" type="button"  外国人労働者への労働許可書発行の新手続
+            a data-target="#myNews6" data-toggle="modal" type="button" = t "home.hot_news.titles.sixth"
           /! Modal
-          #myNews6.modal.fade role="dialog" 
+          #myNews6.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
               .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news6.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
           /ベトナムの「今」　新着情報　内容7
           /! Trigger the modal with a text
           p
-            a data-target="#myNews7" data-toggle="modal" type="button"  労働組合経費を納付しない場合の処罰
+            a data-target="#myNews7" data-toggle="modal" type="button" = t "home.hot_news.titles.seventh"
           /! Modal
-          #myNews7.modal.fade role="dialog" 
+          #myNews7.modal.fade role="dialog"
             modal-dialog
             /! Modal content
             .modal-content
               .modal-body
                 button.close data-dismiss="modal" type="button"  &times;
                 p= image_tag 'news/news7.jpg', class: 'width-100'
-                button.btn.btn-default data-dismiss="modal" type="button"  閉じる
+                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
-      /就職支援セミナー ～先輩の声～ 第2回  
+      /就職支援セミナー ～先輩の声～ 第2回
       .panel.panel-default
         .panel-heading
-          h3.panel-title Vietnam Clubの活動　～　ホーチミンの「今を知る」視察旅行　５日間旅程
+          h3.panel-title = t "home.activities.travels.title"
         .panel-body
-          p 
-            | 詳細な情報について
-            a href="http://vietnamclub.herokuapp.com/categories/1" ここへ
-            | クリックしてください。
-          p= image_tag 'shisatsu/12.jpg', class: 'width-100'
+          - cat = Category.where(title: 'Vietnam Bussiness Club').last
+          p = t("home.activities.more_info", {url: "#{category_path cat}"}).html_safe
+          p = image_tag 'shisatsu/12.jpg', class: 'width-100'
 
-      /就職支援セミナー ～先輩の声～ 第2回  
+      /就職支援セミナー ～先輩の声～ 第2回
       .panel.panel-default
         .panel-heading
-          h3.panel-title 就職支援セミナー ～先輩の声～ 第2回
+          h3.panel-title = t "home.activities.seminar.title"
         .panel-body
-          p 
-            | 詳細な情報について
-            a href="http://vietnamclub.herokuapp.com/categories/1" ここへ
-            | クリックしてください。
-          p= image_tag '16.jpg', class: 'width-100'
-      
+          - cat = Category.where(title: 'Vietnam Bussiness Club').last
+          p = t("home.activities.more_info", {url: "#{category_path cat}"}).html_safe
+          p = image_tag '16.jpg', class: 'width-100'
+
     .col-sm-4
       p= image_tag '7.png', class: 'width-100'
       = render 'shared/advertise'
       - cat = Category.where(title: '入会のご案内').last
       a.btn-primary href="#{category_path cat}"
         .well.well-lg.text-center.btn-primary.background-inherit
-          h4 賛助会員
-          h4 入会のご案内
+          h4 = t "button.member_register"
+          h4 = t "button.register"
       a.btn-success href="document/Vietnam-club-information.docx" download=""
         .well.well-lg.text-center.btn-success.background-inherit
-          h4 バナー広告募集
-          h5 留学生はベトナムに関心のある
-          h5 企業との出会いを求めています
+          h4 = t "home.banner.title"
+          - t("home.banner.content").each do |c|
+            h5 = c
