@@ -1,10 +1,10 @@
 vi:
-  hello: "おはようございます"
+  hello: "Xin chào"
   button:
     close_modal: "閉じる"
-    member_register: "賛助会員"
+    member_register: "Thành viên hỗ trợ"
     student_register: "学生会員"
-    register: "入会のご案内"
+    register: "Hướng dẫn gia nhập"
     recuirt_adviser: "Adviser<br/>募　　集"
     inquiry: "問合せ"
     translation_service: "「留学生」翻訳サービス"
@@ -12,22 +12,22 @@ vi:
     consultation_email: "よろずメール相談"
     discussion: "Vietnam Discussion"
   layout:
-    organization_name: "一般社団法人 Vietnam Club"
+    organization_name: "Tổ chức hỗ trợ đầu tư xúc tiến thương mại Vietnam Club"
     contact:
       code: "〒535-0031"
-      address: "大阪市旭区高殿6丁目1番22号"
-      department: "グローバル人材育成センター内"
+      address: "22-1-6 Takado, Asahiku, Osakashi"
+      department: "Văn phòng nằm phía trong trung tâm đào tạo nhân lực toàn cầu"
   home:
     intro:
-      title: "Vietnam Club は"
-      organization: "一般社団法人Vietnam Clubは、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。"
-      vision: "ビジネスに役立つ情報発信や、在大阪ベトナム学生青年協会様にご協力頂きながら、留学生の方々に日本文化や習慣をご理解頂き、日本で働くためのノウハウを蓄積して頂く活動を行っています。"
+      title: "Tổ chức Vietnam Club là gì?"
+      organization: "Nhằm mục đích đóng góp vào sự phát triển của mối quan hệ hữu nghị giữa hai quốc gia, thông qua các buổi giao lưu nhân sự giữa du học sinh Việt Nam & doanh nghiệp Nhật Bản hay giao lưu kinh tế giữa doanh nghiệp Việt Nam và doanh nghiệp Nhật Bản, Tổ chức Vietnam Club đã được thành lập vào tháng 8/2016."
+      vision: "Phối hợp cùng với Hội sinh viên thanh niên Việt Nam tại Osaka (VYSA-Osaka), Vietnam Club thường xuyên tổ chức các hoạt động/ sự kiện nhằm giúp các bạn du học sinh Việt Nam tích lũy thêm nhiều kinh nghiệm, bí quyết khi làm việc tại Nhật; thấu hiểu về nền văn hóa, phong tục tập quán Nhật Bản và đồng thời phổ biến đến các doanh nghiệp những thông tin hữu ích về kinh doanh hướng đến thị trường Việt Nam."
     support:
-      title: "応援団体"
-      content: "Vietnam Clubでは、下記の団体を応援しています。"
-      group_name: "VYSA-OSAKA　在大阪ベトナム青年学生協会"
+      title: "Đơn vị hỗ  trợ"
+      content: "Đơn vị Vietnam Club đang hỗ  trợ:"
+      group_name: "Hội sinh viên thanh niên Việt Nam tại Osaka (VYSA-Osaka)"
     hot_news:
-      title: "ベトナムの「今」　新着情報"
+      title: "Thông tin mới nhất về Việt Nam “hiện nay”"
       titles:
         first: "ベトナム固定電話市外局番変更案内 (170617)　【新着情報　20170712】"
         second: "ホーチミン市展示会情報 (7月～10月_170605)　【新着情報　20170712】"
@@ -43,10 +43,10 @@ vi:
       seminar:
         title: "就職支援セミナー ～先輩の声～ 第2回"
     banner:
-      title: "バナー広告募集"
+      title: "Tuyển banner quảng cáo doanh nghiệp"
       content:
-        - "留学生はベトナムに関心のある"
-        - "企業との出会いを求めています"
+        - "Du học sinh mong muốn được gặp gỡ"
+        - "các doanh nghiệp có quan tâm đến Việt Nam"
   categories:
     about_us:
       intro:
