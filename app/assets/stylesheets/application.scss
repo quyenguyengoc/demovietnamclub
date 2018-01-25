@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-  max-width: none !important; 
+  max-width: none !important;
   width: 1170px;
 }
 
@@ -112,4 +112,8 @@ body {
 
 .panel-title {
   font-weight: 700;
+}
+
+label.sponsor_fee:last-child {
+  margin-left: 20px;
 }

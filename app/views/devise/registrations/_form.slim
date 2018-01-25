@@ -16,22 +16,20 @@
       label.col-sm-2.control-label.custom-label.radio_buttons.optional = t "register.form.member.received_sponsor"
       .col-sm-10
         input name="user[invoice]" type="hidden" value=""
-        span.radio
-          label for="user_invoice_true"
-            input#user_invoice_true.form-control.radio_buttons.optional name="user[invoice]" type="radio" value="true"
+        .radio
+          label.sponsor_fee for="user_invoice_true"
+            input#user_invoice_true name="user[invoice]" type="radio" value="true"
             span = t "register.form.member.agree_received_sponsor"
-        span.radio
-          label for="user_invoice_false"
-            input#user_invoice_false.form-control.radio_buttons.optional name="user[invoice]" readonly="readonly" type="radio" value="false"
+          label.sponsor_fee for="user_invoice_false"
+            input#user_invoice_false name="user[invoice]" type="radio" value="false"
             span = t "register.form.member.disagree_received_sponsor"
-
   .form-group
-    label.col-sm-2.control-label.custom-label = t "register.form.title"
+    label.col-sm-3.control-label.custom-label = t "register.form.title"
   - if resource.is_member?
     table.table.table-bordered
       tbody
         tr
-          th.col-sm-2 rowspan="2" = t "register.form.member.vocal_title"
+          th.col-sm-3 rowspan="2" = t "register.form.member.vocal_title"
           td colspan="2"
             = f.input :vocal, label: false, input_html: { class: 'table-input' }, placeholder: t("register.form.member.vocal_placeholder")
         tr
@@ -55,7 +53,7 @@
         tr
           td colspan="2"= f.input :url, label: t("register.form.member.url"), input_html: { class: 'table-input' }
         tr
-          td = t "register.form.member.comment"
+          th = t "register.form.member.comment"
           td colspan="2"= f.input :other, label: false, input_html: { class: 'table-input' }
     button.btn.btn-default data-target="#myModal" data-toggle="modal" type="button" = t "register.form.register"
     #myModal.modal.fade role="dialog" tabindex="-1"
@@ -68,11 +66,11 @@
           .modal-body
             h2.text-center = t "register.form.member.guide_title"
             - t("register.form.member.guide_content").each do |c|
-              p = c
+              p = c.html_safe()
 
             h3.text-center = t "register.form.member.term_title"
             - t("register.form.member.term_content").each do |c|
-              p = c
+              p = c.html_safe()
           .modal-footer
             button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
             = f.button :submit, t("register.form.register")
