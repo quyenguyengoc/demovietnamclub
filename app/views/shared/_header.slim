@@ -37,7 +37,13 @@ nav.navbar.navbar-default.main-navbar
     .row
       #bs-example-navbar-collapse-1.collapse.navbar-collapse
         ul.nav.navbar-nav
-          - Category.all.each do |cat|
-            - status = (params['controller'] == 'categories' && params['action'] == 'show' && params['id'] == cat.id.to_s) ? 'active' : ''
+          - t("layout.menu").each_with_index do |m, i|
+            - id = i + 1
+            - status = (params['controller'] == 'categories' && params['action'] == 'show' && params['id'] == id.to_s) ? 'active' : ''
             li class="#{status}"
-              a href="#{category_path cat}"= cat.title
+              a href="#{category_path id}"= m
+        / ul.nav.navbar-nav
+          / - Category.all.each do |cat|
+            / - status = (params['controller'] == 'categories' && params['action'] == 'show' && params['id'] == cat.id.to_s) ? 'active' : ''
+            / li class="#{status}"
+              / a href="#{category_path cat}"= cat.title
