@@ -12,6 +12,12 @@ ja:
     consultation_email: "よろずメール相談"
     discussion: "Vietnam Discussion"
   layout:
+    menu:
+      - "Vietnam Business Club"
+      - "Vietnam Foreign Student Club"
+      - "Adviser"
+      - "会社概要"
+      - "入会のご案内"
     organization_name: "一般社団法人 Vietnam Club"
     contact:
       code: "〒535-0031"

@@ -12,6 +12,12 @@ vi:
     consultation_email: "Thảo luận qua Email"
     discussion: "Thảo luận về Việt Nam"
   layout:
+    menu:
+      - "Góc doanh nghiệp"
+      - "Góc du học sinh"
+      - "Chuyên gia cố vấn"
+      - "Sơ lược về Tổ chức"
+      - "Hướng dẫn tham gia Tổ chức"
     organization_name: "Tổ chức hỗ trợ đầu tư xúc tiến thương mại Vietnam Club"
     contact:
       code: "〒535-0031"
