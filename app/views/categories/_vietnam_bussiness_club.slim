@@ -1,4 +1,5 @@
 #category-show-vbc
+  - language = I18n.default_locale
   .row
     .col-sm-8
       .col-sm-6
@@ -18,7 +19,8 @@
                   .panel-heading
                     h3.panel-title = t "categories.business_club.modal_title.translation_service"
                   .panel-body
-                    p= image_tag '8.png', class: 'width-100'
+                    - image = language == :vi ? '8_vi.png' : '8.png'
+                    p= image_tag image, class: 'width-100'
               .modal-footer
                 button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
                 a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
@@ -39,7 +41,8 @@
                   .panel-heading
                     h3.panel-title = t "categories.business_club.modal_title.announcement_service"
                   .panel-body
-                    p= image_tag '9.png', class: 'width-100'
+                    - image = language == :vi ? '9_vi.png' : '9.png'
+                    p= image_tag image, class: 'width-100'
               .modal-footer
                 button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
                 a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
@@ -60,7 +63,8 @@
                   .panel-heading
                     h3.panel-title = t "categories.business_club.modal_title.consultation_email"
                   .panel-body
-                    p= image_tag '10.png', class: 'width-100'
+                    - image = language == :vi ? '10_vi.png' : '10.png'
+                    p= image_tag image, class: 'width-100'
               .modal-footer
                 button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
                 a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
@@ -81,7 +85,8 @@
                   .panel-heading
                     h3.panel-title = t "categories.business_club.modal_title.discussion"
                   .panel-body
-                    p= image_tag 'VietnamDiscussion.png', class: 'width-100'
+                    - image = language == :vi ? '11_vi.png' : '11.png'
+                    p= image_tag image, class: 'width-100'
               .modal-footer
                 button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
                 a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"

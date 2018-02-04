@@ -16,13 +16,13 @@ vi:
       - "Góc doanh nghiệp"
       - "Góc du học sinh"
       - "Chuyên gia cố vấn"
-      - "Sơ lược về Tổ chức"
-      - "Hướng dẫn tham gia Tổ chức"
+      - "Sơ lược về Vietnam Club"
+      - "Hướng dẫn đăng kí thành viên"
     organization_name: "Tổ chức hỗ trợ đầu tư xúc tiến thương mại Vietnam Club"
     contact:
       code: "〒535-0031"
       address: "22-1-6 Takado, Asahiku, Osakashi"
-      department: "Văn phòng nằm phía trong trung tâm đào tạo nhân lực toàn cầu"
+      department: "Văn phòng: Trung tâm đào tạo nhân lực toàn cầu"
   home:
     intro:
       title: "Tổ chức Vietnam Club là gì?"
@@ -65,10 +65,10 @@ vi:
           boss: "Chủ tịch danh dự"
         info:
           organization: "Tổ chức hỗ trợ đầu tư xúc tiến thương mại Vietnam Club"
-          representative: "村上 福壽郎"
+          representative: "MURAKAMI FUKUJURO"
           location: "535-0031 22-1-6 Takado, Asahiku, Osakashi"
           establishment: "23/08/2016"
-          director: "村上　福壽郎<br/>柳澤　一生"
+          director: "MURAKAMI FUKUJURO<br/>YANAGISAWA KAZUO"
           boss: "Tổng lãnh sự Trần Đức Bình"
       info:
         title: "Thư ngỏ"
@@ -231,6 +231,9 @@ vi:
             - "Công ty TNHH Đồng Nikko Thượng Hải."
             - "Công Ty TNHH Điên khí công nghiệp Furukawa - Chi nhánh miền trung."
     register:
+      button:
+        member_register: "ĐĂNG KÍ THÀNH VIÊN DÀNH CHO DOANH NGHIỆP"
+        student_register: "ĐĂNG KÍ THÀNH VIÊN DÀNH CHO SINH VIÊN"
       member:
         intro: "Vietnam Club được thành lập vào tháng 8/2016, thông qua giao lưu nhân sự giữa du học sinh Việt Nam và doanh nghiệp Nhật Bản, giao lưu kinh tế giữa doanh nghiệp Việt Nam và doanh nghiệp Nhật Bản nhằm đóng góp vào sự phát triển của mối quan hệ hữu nghị giữa hai nước.<br/>Nhưng chỉ có riêng tổ chức chúng tôi thì không thể tổ chức tất cả những hoạt động mang mục đích to lớn nhằm thúc đẩy mối quan hệ giao lưu giữa hai nước Việt Nam và Nhật Bản được. Chính nhờ sự thấu hiểu và hợp tác từ nhiều phía, mục đích to lớn trên đang trên đà trở thành hiện thực. Chúng tôi luôn mong muốn nhận được sự tham gia từ các thành viên hỗ trợ (Cá nhân. Nhà doanh nghiệp, đoàn thể) luôn cùng chung ủng hộ mục đích to lớn trên và tận tâm tận lực vì sự phát triển của 2 nước."
         help:
@@ -396,7 +399,34 @@ vi:
         school_placeholder: "学年"
         education_title: "所属学部研究科名"
         info_title: "ベトナム人留学生無料会員募集のご案内"
-        term_title: "賛助会員　会員規約"
+        term_title: "Điều khoản thành viên – thành viên hỗ trợ"
+        term_content:
+          - "1. Mục đích"
+          - "&nbsp;&nbsp;Những Điều khoản này được quy định dành cho thành viên hỗ trợ Tổ chức hỗ trợ đầu tư xúc tiến thương mại Vietnam Club."
+          - "2. Gia nhập tổ chức"
+          - "&nbsp;&nbsp;Chính thức trở thành thành viên hỗ trợ của tổ chức khi đơn đăng ký theo mẫu và tiền hội phí đều được chấp thuận."
+          - "3. Hội phí thường niên và tiền tài trợ"
+          - "&nbsp;&nbsp;<b>Hội phí tháng:</b>  Thành viên hỗ trợ (cá nhân/ doanh nghiệp) 2,000 yên"
+          - "&nbsp;&nbsp;&nbsp;&nbsp;Ngày đăng ký cùng là ngày vào Tổ chức, Hội phí thường niên có thời hạn từ ngày 1/8 đến 31/7 năm sau."
+          - "&nbsp;&nbsp;&nbsp;&nbsp;Trường hợp gia nhập vào tổ chức giữa chừng thì hội phí sẽ được tính theo tháng kể từ ngày đăng ký."
+          - "&nbsp;&nbsp;&nbsp;&nbsp;Hội phí từ năm thứ 2 trở lên, tổ chức sẽ thông báo thay đổi 1 lần/năm."
+          - "4. Quyền lợi"
+          - "&nbsp;&nbsp;Tổ chức sẽ mang đến những quyền lợi riêng dành cho thành viên chính thức và thành viên hỗ trợ."
+          - "&nbsp;&nbsp;Nội dung quyền lợi sẽ dựa trên văn bản hướng dẫn tham gia làm thành viên hỗ trợ."
+          - "5. Rời khỏi Tổ chức"
+          - "&nbsp;&nbsp;Thành viên hỗ trợ có thể tự ý rút khỏi tổ chức khi đã nộp Đơn xin rời khỏi tổ chức từ trước 1 tháng trở lên. Tuy nhiên phí thành viên đã nộp trước đó sẽ không được hoàn trả."
+          - "6. Chấm dứt tư cách Thành viên"
+          - "&nbsp;&nbsp;Trường hợp thành viên hỗ trợ có biểu hiện của một trong số những hành vi dưới đây, Tổ chức có thể chấm dứt tư cách của thành viên đó dựa trên quyết định toàn thể. Ngoài ra, khi chấm dứt tư cách thành viên thì Tổ chức không hoàn trả hội phí đã nộp trước đó."
+          - "&nbsp;&nbsp;&nbsp;&nbsp;1. Trường hợp thành viên vi phạm với các quy ước hoặc điều lệ của Tổ chức."
+          - "&nbsp;&nbsp;&nbsp;&nbsp;2. Trường hợp thành viên hoạt động trái pháp luật làm mất lòng tin của Tổ chức"
+          - "&nbsp;&nbsp;&nbsp;&nbsp;3. Trường hợp thành viên phỉ báng Tổ chức hoặc có hành vi trái với mục đích hoạt động của Tổ chức."
+          - "7. Bảo mật thông tin cá nhân"
+          - "&nbsp;&nbsp;Tổ chức không sử dụng cũng như công khai những thông tin cá nhân của thành viên hỗ trợ khi chưa nhận được sự chấp thuận của thành viên đó. Đối với những thành viên sau khi rút khỏi hội vẫn sẽ được bảo mật thông tin cá nhân như trên."
+          - "8. Khen thưởng và kỉ luật"
+          - "&nbsp;&nbsp;Tổ chức không chịu trách nhiệm bồi thường đối với các trường hợp thành viên hỗ trợ gây tổn hại đến Tổ chức, các thành viên khác hoặc bên thứ ba trong các hoạt động nằm ngoài trách nhiệm quản lí của Tổ chức."
+          - "&nbsp;&nbsp;Ngoài ra, Tổ chức có thể yêu cầu bồi thường thiệt hại đối với thành viên trong trường hợp thành viên đó gây tổn hại đến Tổ chức bằng những hành vi bất hợp pháp/bất chính hay làm trái với quy ước Điều lệ của Tổ chức."
+          - "Quy định bổ sung"
+          - "Quy định trên có hiệu lực thi hành từ ngày 01/04/2017."
     organization_info:
       - "※Những thông tin cá nhân được điền ở những cột trên sẽ chỉ sử dụng cho mục đích quản lí thành viên của Tổ chức"
       - "Tổ chức hỗ trợ đầu tư xúc tiến thương mại Vietnam Club"

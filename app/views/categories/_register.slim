@@ -3,9 +3,8 @@
     .col-sm-8
       a.btn-primary href="#{new_user_path}"
         .well.well-lg.text-center.background-inherit
-          h3 = t "button.member_register"
-          h3 = t "button.register"
-      p = t("categories.register.member.intro").html_safe
+          h3 = t("categories.register.button.member_register").html_safe
+      p.text-justify = t("categories.register.member.intro").html_safe
 
       /Rule1
       /! Trigger the modal with a text
@@ -39,15 +38,14 @@
       br
       a.btn-danger href="#{new_student_path}"
         .well.well-lg.text-center.background-inherit
-          h3 = t "button.student_register"
-          h3 = t "button.register"
-      p = t "categories.register.student.intro"
+          h3 = t("categories.register.button.student_register").html_safe
+      p.text-justify = t "categories.register.student.intro"
       br
       br
       .btn-warning href="#"
         .well.well-lg.text-center.background-inherit
           h3 = t("button.recuirt_adviser").html_safe
-      p
+      p.text-justify
         span = t("categories.register.adviser.intro").html_safe
         | TEL: 06(6956)4115
         br

@@ -6,12 +6,13 @@
         p 〒535-0031
         p = t "layout.contact.address"
         p = t "layout.contact.department"
-        p Tel: 06(6956)4115
+        p Tel: 06 (6956) 4115
         p E-mail: vnclub.j@gmail.com
     .col-sm-8.footer-buttons-group
-      - Category.all.each do |cat|
+      - t("layout.menu").each_with_index do |m, i|
+        - id = i + 1
         .button-wrap
-          a.btn.btn-default href="#{category_path cat}" role="button"
-            span= cat.title
+          a.btn.btn-default href="#{category_path id}" role="button"
+            span= m
     .col-sm-12.text-right
       small Copyright © 2016 ＶｉｅｔｎａｍＣｌｕｂ. All Rights Reserved.
