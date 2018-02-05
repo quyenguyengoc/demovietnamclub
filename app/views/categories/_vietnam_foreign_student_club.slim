@@ -56,6 +56,6 @@
                 p= simple_format content.body
                 - if content.title != "セミナー・イベント情報"
                   p
-                    a.btn.btn-default href="#{new_student_path}" = t("button.student_register")+t("button.register")
+                    a.btn.btn-default href="#{new_student_path}" = t("categories.register.button.student_register").html_safe
     .col-sm-4
       = render 'shared/advertise'

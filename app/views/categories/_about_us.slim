@@ -27,8 +27,9 @@
         p
           .col-sm-12
           = image_tag '13_2.png'
-        - t("categories.about_us.info.content").each do |c|
-          p = c.html_safe
+        div.text-justify
+          - t("categories.about_us.info.content").each do |c|
+            p = c.html_safe
 
 
     .col-sm-4

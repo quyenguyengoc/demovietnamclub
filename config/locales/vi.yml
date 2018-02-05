@@ -26,8 +26,8 @@ vi:
   home:
     intro:
       title: "Tổ chức Vietnam Club là gì?"
-      organization: "Nhằm mục đích đóng góp vào sự phát triển của mối quan hệ hữu nghị giữa hai quốc gia, thông qua các buổi giao lưu nhân sự giữa du học sinh Việt Nam & doanh nghiệp Nhật Bản hay giao lưu kinh tế giữa doanh nghiệp Việt Nam và doanh nghiệp Nhật Bản, Tổ chức Vietnam Club đã được thành lập vào tháng 8/2016."
-      vision: "Phối hợp cùng với Hội sinh viên thanh niên Việt Nam tại Osaka (VYSA-Osaka), Vietnam Club thường xuyên tổ chức các hoạt động/ sự kiện nhằm giúp các bạn du học sinh Việt Nam tích lũy thêm nhiều kinh nghiệm, bí quyết khi làm việc tại Nhật; thấu hiểu về nền văn hóa, phong tục tập quán Nhật Bản và đồng thời phổ biến đến các doanh nghiệp những thông tin hữu ích về kinh doanh hướng đến thị trường Việt Nam."
+      organization: "Tổ chức Vietnam Club đã được thành lập vào tháng 8/2016 tại thành phố Osaka, với mục đích đóng góp vào sự phát triển của mối quan hệ hữu nghị giữa hai quốc gia thông qua các buổi giao lưu nhân sự giữa du học sinh Việt Nam & doanh nghiệp Nhật Bản hay giao lưu kinh tế giữa doanh nghiệp Việt Nam và doanh nghiệp Nhật Bản."
+      vision: "Phối hợp cùng với Hội sinh viên thanh niên Việt Nam tại Osaka (VYSA-Osaka), Vietnam Club thường xuyên tổ chức các hoạt động, các sự kiện nhằm giúp các bạn du học sinh Việt Nam tích lũy thêm nhiều kinh nghiệm, bí quyết khi làm việc tại Nhật, thấu hiểu về nền văn hóa, phong tục tập quán Nhật Bản và đồng thời phổ biến đến các doanh nghiệp những thông tin hữu ích về kinh doanh hướng đến thị trường Việt Nam."
     support:
       title: "Đơn vị hỗ  trợ"
       content: "Đơn vị Vietnam Club đang hỗ  trợ:"
@@ -43,11 +43,11 @@ vi:
         sixth: "外国人労働者への労働許可書発行の新手続"
         seventh: "労働組合経費を納付しない場合の処罰"
     activities:
-      more_info: "詳細な情報について <a href ='%{url}'>ここへ</a>クリックしてください。"
+      more_info: "Click vào <a href ='%{url}'>đây</a> để xem thông  tin chi tiết."
       travels:
-        title: "Vietnam Clubの活動　～　ホーチミンの「今を知る」視察旅行　５日間旅程"
+        title: "Hoạt động của Vietnam Club ~ Chuyến khảo sát với chủ đề \"Hiểu biết về hiện tại\" 5 ngày tại Tp. Hồ Chí Minh"
       seminar:
-        title: "就職支援セミナー ～先輩の声～ 第2回"
+        title: "Hội thảo hỗ trợ xin việc ~ Tiếng nói của Senpai ~ lần thứ 2"
     banner:
       title: "Tuyển banner quảng cáo doanh nghiệp"
       content:
@@ -76,12 +76,12 @@ vi:
           - "&nbsp;&nbsp;Tổ chức của chúng tôi đã được thành lập trong năm nay với ba mục tiêu giao lưu sau đây:"
           - "&nbsp;&nbsp;&nbsp;&nbsp;Thứ nhất là giao lưu văn hóa Việt Nam và Nhật Bản."
           - "&nbsp;&nbsp;&nbsp;&nbsp;Thứ hai là giao lưu kinh tế thương mại giữa doanh nghiệp Việt Nam và Nhật Bản."
-          - "&nbsp;&nbsp;&nbsp;&nbsp;Cuối cùng là giao lưu nhân sự giữa du học sinh Việt Nam và Doanh nghiệp Nhật Bản. "
+          - "&nbsp;&nbsp;&nbsp;&nbsp;Cuối cùng là giao lưu nhân sự giữa du học sinh Việt Nam và Doanh nghiệp Nhật Bản."
           - "&nbsp;&nbsp;Tổ chức chúng tôi hoạt động với hai chủ chốt chính, đó là “Câu lạc bộ doanh nghiệp Việt Nam” và “Câu lạc bộ du học sinh Việt Nam”."
           - "&nbsp;&nbsp;“Câu lạc bộ doanh nghiệp Việt Nam”, chúng tôi sẽ tổ chức các “Hội thảo cơ sở tăng cường tiến vào thị trường nước ngoài”, nhằm hướng đến các doanh nghiệp mong muốn có bước tiến xa hơn khỏi thị trường kinh doanh trong nước Nhật, và tìm kiếm cơ hội tiến vào thị trường nước ngoài."
           - "&nbsp;&nbsp;Hơn nữa, tại “Câu lạc bộ du học sinh Việt Nam”, cùng với sự hỗ trợ của các bạn trẻ và du học sinh Việt Nam trong Hội sinh viên thanh niên Việt Nam tại Osaka (VYSA-Osaka), chúng tôi thường xuyên tổ chức các hoạt động giúp các bạn sinh viên hiểu thêm về văn hóa doanh nghiệp Nhật Bản, tích lũy cho bản thân thêm nhiều bí quyết làm việc tại Nhật Bản."
-          - "&nbsp;&nbsp;Nhưng chỉ có riêng tổ chức chúng tôi thì không thể tổ chức được tất cả những hoạt động mang mục đích to lớn nhằm thúc đẩy mối quan hệ giao lưu giữa hai nước Việt Nam và Nhật Bản. Chính nhờ sự thấu hiểu và hợp tác từ nhiều phía, mục đích to lớn trên đang trên đà trở thành hiện thực. Chúng tôi hi vọng có thêm nhiều cộng sự hợp tác cùng thấu hiểu mục đích to lớn của tổ chức và cùng hoạt động với chúng tôi ."
-          - "Trân trọng"
+          - "&nbsp;&nbsp;Nhưng chỉ có riêng tổ chức chúng tôi thì không thể tổ chức được tất cả những hoạt động mang mục đích to lớn nhằm thúc đẩy mối quan hệ giao lưu giữa hai nước Việt Nam và Nhật Bản. Chính nhờ sự thấu hiểu và hợp tác từ nhiều phía, mục đích to lớn trên đang trên đà trở thành hiện thực. Chúng tôi hi vọng có thêm nhiều cộng sự hợp tác cùng thấu hiểu mục đích to lớn của tổ chức và cùng hoạt động với chúng tôi."
+          - "<p style='text-align: right;'>Trân trọng</p>"
     advisers:
       info:
         title:
@@ -159,20 +159,20 @@ vi:
             - "Quản lí an toàn Việt Nam, Thái Lan."
           fifth:
             others:
-              - "1 Tiến vào thị trường Việt Nam và những rủi ro kinh doanh: Hiệp hội thuế quan Nhật Bản (03/2015)."
-              - "2 Xin cấp Giấy phép lao động/ Visa: Tổ chức xúc tiến mậu dịch Nhật Bản JETRO tại Hà Nội, Hiệp hội doanh nghiệp Nhật Bản tại Đà Nẵng (JBAD) (6/2015)."
-              - "3 Điểm khác nhau trong điều luật phái cử giữa Việt Nam và Nhật Bản: Công ty Pasona Tech Việt Nam (7/2015) (07/2015)."
-              - "4 Những vấn đề liên quan đến Luật Lao động, các hạng mục cần chú ý khi tiến vào thị trường Việt Nam: Hội nghiên cứu doanh nghiệp (10/2015)."
-              - "5 Tình hình mới nhất về kinh doanh tại Việt Nam: Văn phòng cơ quan hành chính Okinawa (11/2015)."
-              - "6 Những tác động của Luật đầu tư mới và Luật doanh nghiệp đến các doanh nghiệp hiện nay: Chi nhánh Hà Nội ngân hàng Sumitomo Mitsui Banking Corporation (1/2016)."
-              - "7 Đầu tư vào thị trường Việt Nam dựa trên Luật đầu tư mới, Luật doanh nghiệp: Hiệp hội thuế quan Nhật Bản (2/2016)."
-              - "8 Xin cấp Giấy phép lao động và Visa: Tổ chức xúc tiến mậu dịch Nhật Bản Jetro tại Hà Nội, Hiệp hội doanh nghiệp Nhật Bản tại Việt Nam (JBAV) (6/2016)."
-              - "9 Xin cấp Giấy phép lao động và Visa: Tổ chức xúc tiến mậu dịch Nhật Bản Jetro tại Hà Nội, Hiệp hội doanh nghiệp Nhật Bản tại Đà Nẵng(JBAD) (6/2016)."
-              - "10 Các hạng mục cần chú ý khi tiến vào thị trường Việt Nam: Ngân hàng TMCP Đầu tư và phát triển Việt Nam BIDV tại Hồ Chí Minh, bộ phận hỗ trợ doanh nghiệp Nhật Bản (9/2016)."
-              - "11 Tình hình mới nhất của thị trường kinh doanh tại Việt Nam: Trụ sở cơ quan hành chính Tokyo (11/2016)."
-              - "12 Tiến vào thị trường Việt Nam và những rủi ro thương mại: Hiệp hội thuế quan Nhật Bản."
+              - "Tiến vào thị trường Việt Nam và những rủi ro kinh doanh: Hiệp hội thuế quan Nhật Bản (03/2015)."
+              - "Xin cấp Giấy phép lao động/ Visa: Tổ chức xúc tiến mậu dịch Nhật Bản JETRO tại Hà Nội, Hiệp hội doanh nghiệp Nhật Bản tại Đà Nẵng (JBAD) (6/2015)."
+              - "Điểm khác nhau trong điều luật phái cử giữa Việt Nam và Nhật Bản: Công ty Pasona Tech Việt Nam (7/2015) (07/2015)."
+              - "Những vấn đề liên quan đến Luật Lao động, các hạng mục cần chú ý khi tiến vào thị trường Việt Nam: Hội nghiên cứu doanh nghiệp (10/2015)."
+              - "Tình hình mới nhất về kinh doanh tại Việt Nam: Văn phòng cơ quan hành chính Okinawa (11/2015)."
+              - "Những tác động của Luật đầu tư mới và Luật doanh nghiệp đến các doanh nghiệp hiện nay: Chi nhánh Hà Nội ngân hàng Sumitomo Mitsui Banking Corporation (1/2016)."
+              - "Đầu tư vào thị trường Việt Nam dựa trên Luật đầu tư mới, Luật doanh nghiệp: Hiệp hội thuế quan Nhật Bản (2/2016)."
+              - "Xin cấp Giấy phép lao động và Visa: Tổ chức xúc tiến mậu dịch Nhật Bản Jetro tại Hà Nội, Hiệp hội doanh nghiệp Nhật Bản tại Việt Nam (JBAV) (6/2016)."
+              - "Xin cấp Giấy phép lao động và Visa: Tổ chức xúc tiến mậu dịch Nhật Bản Jetro tại Hà Nội, Hiệp hội doanh nghiệp Nhật Bản tại Đà Nẵng(JBAD) (6/2016)."
+              - "Các hạng mục cần chú ý khi tiến vào thị trường Việt Nam: Ngân hàng TMCP Đầu tư và phát triển Việt Nam BIDV tại Hồ Chí Minh, bộ phận hỗ trợ doanh nghiệp Nhật Bản (9/2016)."
+              - "Tình hình mới nhất của thị trường kinh doanh tại Việt Nam: Trụ sở cơ quan hành chính Tokyo (11/2016)."
+              - "Tiến vào thị trường Việt Nam và những rủi ro thương mại: Hiệp hội thuế quan Nhật Bản."
             books:
-              title: "【Kinh nghiệm viết lách】"
+              title: "【Kinh nghiệm viết báo, tạp chí】"
               content:
                 - "Báo tin nhanh chuyên mục Việt Nam (Phát hành số đầu tiên vào năm 2009, những năm gần đây viết bài định kỳ mỗi tuần, tổng số là hơn 200 bài)."
                 - "Tạp chí E-mail Jetro Hà Nội (Phát hành số đầu tiên vào tháng 4/2010, viết bài định kỳ mỗi tháng)."
@@ -235,12 +235,12 @@ vi:
         member_register: "ĐĂNG KÍ THÀNH VIÊN DÀNH CHO DOANH NGHIỆP"
         student_register: "ĐĂNG KÍ THÀNH VIÊN DÀNH CHO SINH VIÊN"
       member:
-        intro: "Vietnam Club được thành lập vào tháng 8/2016, thông qua giao lưu nhân sự giữa du học sinh Việt Nam và doanh nghiệp Nhật Bản, giao lưu kinh tế giữa doanh nghiệp Việt Nam và doanh nghiệp Nhật Bản nhằm đóng góp vào sự phát triển của mối quan hệ hữu nghị giữa hai nước.<br/>Nhưng chỉ có riêng tổ chức chúng tôi thì không thể tổ chức tất cả những hoạt động mang mục đích to lớn nhằm thúc đẩy mối quan hệ giao lưu giữa hai nước Việt Nam và Nhật Bản được. Chính nhờ sự thấu hiểu và hợp tác từ nhiều phía, mục đích to lớn trên đang trên đà trở thành hiện thực. Chúng tôi luôn mong muốn nhận được sự tham gia từ các thành viên hỗ trợ (Cá nhân. Nhà doanh nghiệp, đoàn thể) luôn cùng chung ủng hộ mục đích to lớn trên và tận tâm tận lực vì sự phát triển của 2 nước."
+        intro: "Vietnam Club được thành lập vào tháng 8/2016, thông qua giao lưu nhân sự giữa du học sinh Việt Nam và doanh nghiệp Nhật Bản, giao lưu kinh tế giữa doanh nghiệp Việt Nam và doanh nghiệp Nhật Bản nhằm đóng góp vào sự phát triển của mối quan hệ hữu nghị giữa hai nước.<br/>Nếu chỉ có riêng tổ chức chúng tôi thì không thể tổ chức tất cả những hoạt động mang mục đích to lớn nhằm thúc đẩy mối quan hệ giao lưu giữa hai nước Việt Nam và Nhật Bản được. Chính nhờ sự thấu hiểu và hợp tác từ nhiều phía, mục đích to lớn trên đang trên đà trở thành hiện thực. Chúng tôi luôn mong muốn nhận được sự tham gia từ các thành viên hỗ trợ (Cá nhân. Nhà doanh nghiệp, đoàn thể) luôn cùng chung ủng hộ mục đích to lớn trên và tận tâm tận lực vì sự phát triển của 2 nước."
         help:
-          procedure: "★　賛助会員要領"
-          support: "★　賛助会員規定"
+          procedure: "★ Thông báo tuyển hội viên"
+          support: "★ Quy định hội viên"
       student:
-        intro: "般社団法人VietnamClubは、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。両国の発展にご尽力いただける方（個人・事業者・団体）を賛助会員として募集している同時、無料会員としてベトナム人留学生の皆さんの参加を歓迎しています。"
+        intro: "Vietnam Club hoạt động nhằm gia tăng mối quan hệ giao hảo giữa hai quốc gia Việt Nam và Nhật Bản thông qua việc giao lưu học hỏi trao đổi giữa các doanh nghiệp Việt Nam và Nhật Bản, cũng như  giữa du học sinh Việt Nam và các doanh nghiệp Nhật Bản.  Bên cạnh  sự tham gia từ các cá nhân, nhà doanh nghiệp và đoàn thể, chúng tôi xin được miễn chi phí hội viên dành cho các bạn học sinh, sinh viên đến từ Việt Nam. Xin đón chào sự tham gia của các bạn!"
       adviser:
         intro: "Chúng tôi đang cần những kiến thức cùng với những kinh nghiệm làm việc của các chuyên gia tại Việt Nam và các nước lân cận. Vì đương nhiên không chỉ những doanh nghiệp đã xúc tiến vào thị trường Việt Nam, mà còn cả những doanh nghiệp đang có kế hoạch xúc tiến và những du học sinh tại Nhật Bản đang rất hy vọng nhận được sự hỗ trợ từ các chuyên gia.<br/>Hãy liên hệ với Vietnam club chúng tôi.<br/>"
     business_club:
@@ -250,52 +250,51 @@ vi:
         consultation_email: "Thảo luận qua Email"
         discussion: "Thảo luận về Việt Nam"
       activities:
-        title: "Vietnam Clubの活動　～　ホーチミンの「今を知る」視察旅行　５日間旅程"
+        title: "Hoạt động của Vietnam Club ~ Chuyến khảo sát với chủ đề \"Hiểu biết về hiện tại\" 5 ngày tại Tp. Hồ Chí Minh."
         post:
           first:
-            - "10月の中旬、一般社団法人Vietnam Clubはホーチミンの「今を知る」視察旅行を行いました。"
-            - "参加者は全員14人です。"
-            - "2017年10月18日　関西空港より、ベトナム航空にてホーチミンへ出発した。"
+            - "Giữa tháng 10, Vietnam Club đã thực hiện chuyến khảo sát với chủ đề \"Hiểu biết về hiện tại\" 5 ngày tại Tp. Hồ Chí Minh."
+            - "Với sự tham gia của 14 thành viên hiện đang nắm vai trò chủ chốt của các công ty Nhật Bản."
+            - "Ngày 18/10/2017 chúng tôi xuất phát từ sân bay quốc tế Kansai đi tp.Hồ Chí Minh."
           second:
-            - "「ハインデコ（HAINDECOSG)」社訪問"
+            - "Đến thăm công ty HAINDECOSG."
           third:
-            - "2017年10月19日　ホーチミン市師範大学訪問"
+            - "Ngày 19/10/2017 đến thăm trường Đại học Sư Phạm tp.Hồ Chí Minh."
           fourth:
-            - "ホーチミン市師範大学の学生さんとの交流"
+            - "Giao lưu trao đổi với sinh viên tiếng Nhật tại trường."
           fifth:
-            - "午後から旭東ベトナム有限会社様訪問"
+            - "Buổi chiều chúng tôi di chuyển đến công ty TNHH Kyokuto."
           sixth:
-            - "2017年10月20日　イオンモール　タンフーセラドン店"
+            - "Tham quan AEON Mall vào ngày 20/10/2017."
           seventh:
-            - "午後から２区を中心に不動産視察"
+            - "Buổi chiều thị sát thị trường BDS tại quận 2."
           eighth:
-            - "2017年10月21日　統一会堂（入場）、中央郵便局（下車）など市内視察"
-            - "ホーチミンの市場についての情報を収集することだけではなくて、他のメンバーと一緒にホーチミン市の旅を楽しめました。"
+            - "Tham quan giao lưu trong nội thành thành phố Hồ Chí Minh ngày 21/10/2017, tất cả mọi người đều đã có rất nhiều thông tin bổ ích và khoảng thời gian vui vẻ bên nhau."
           nineth:
-            - "ホテル日航サイゴンにて「Global Talent&Business Meetup in Ho Chi Minh City」にご参加。"
+            - "Buổi chiều, tham dự 「Global Talent&Business Meetup in Ho Chi Minh City」."
           tenth:
-            - "2017年10月22日　関西空港到着"
-        end: "皆さん、ベトナムはどう思いますか。ベトナムの市場、人、情報についてご興味があると是非一般社団法人Vietnam Clubにご連絡ください。"
+            - "Ngày 22/10/2017 chúng tôi về lại Osaka."
+        end: "Các bạn thấy Việt Nam như thế nào? Nếu các bạn thật sự thích Việt Nam và mong muốn tìm hiểu thị trường Việt Nam thì hãy liên lạc với Vietnam Club nhé!"
       seminars:
-        title: "第2回　ベトナム留学生のための就職支援セミナー　「先輩の声」"
+        title: "Hội thảo hỗ trợ xin việc lần thứ 2 dành cho sinh viên Việt Nam ~ Tiếng nói của Senpai ~ "
         post:
           first:
-            - "8月のはじめ、一般社団法人Vietnam Clubは第2回　ベトナム留学生のための就職支援セミナー　「先輩の声」を行いました。"
-            - "8企業と14人の学生さんは参加しました。"
-            - "■当日のスケジュール"
-            - "12：00 開会"
-            - "12：05 在大阪ベトナム青年学生協会　副会長　グエン　スアン　コア氏　ご挨拶"
+            - "Vào đầu tuần tháng 8, Vietnam Club đã tổ chức Hội thảo hỗ trợ xin việc lần thứ 2 dành cho sinh viên Việt Nam với chủ đề \"Tiếng nói của Senpai\""
+            - "Với sự tham gia của 8 xí nghiệp và 14 bạn học sinh Việt Nam"
+            - "■Thông tin của sự kiện"
+            - "12:00 Khai mạc"
+            - "12:05 Phát biểu của hội phó hội sinh viên Việt Nam tại Osaka (Vysa Osaka) Nguyễn Xuân Khoa"
           second:
-            - "12：15 就職支援セミナー「先輩の声」 講師 一般社団法人Vietnam　Club ゴウ　クアン氏"
+            - "12:15 Buổi nói chuyện của ông Ngô Quân từ Vietnam Club"
           third:
-            - "12：45 参加企業　自己紹介 1社5分"
+            - "12:45 Các công ty tham gia tự giới thiệu"
           fourth:
-            - "参加企業リスト"
+            - "Danh sách các công ty tham gia"
           fifth:
-            - "13：30 交流会　1社10分程度"
+            - "13:30 Giao lưu giữa sinh viên và công ty. 1 công ty khoảng 10 phút"
           sixth:
-            - "15：00 閉会"
-        end: "皆さん、ベトナム学生を採用したいですか。ベトナム学生と交流したいですか。交流会のチャンスがほしい方は是非一般社団法人Vietnam Clubにご連絡ください。"
+            - "15:00"
+        end: "Các bạn, các bạn có muốn tuyển dụng người Việt Nam không? Các bạn có muốn giao lưu cùng với sinh viên Việt Nam không? Hãy liên lạc với Vietnam Club nhé!"
   register:
     member:
       title: "Đơn xin gia nhập thành viên"
