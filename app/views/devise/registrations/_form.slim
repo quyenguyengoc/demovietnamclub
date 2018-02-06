@@ -84,17 +84,17 @@
         tr
           td = f.input :enterprise_name, label: false, input_html: { class: 'table-input' }
           td
-            input name="user[gender]" type="hidden" value=""
-            span.radio
-              label for="user_invoice_true"
-                input#user_invoice_true.form-control.radio_buttons.optional name="user[gender]" type="radio" value="男"
-                span = t "register.form.student.male"
-            span.radio
-              label for="user_invoice_false"
-                input#user_invoice_false.form-control.radio_buttons.optional name="user[gender]" readonly="readonly" type="radio" value="女"
-                span = t "register.form.student.female"
+            .form-group.radio_buttons.optional
+              input name="user[invoice]" type="hidden" value=""
+              .radio.text-center
+                label.sponsor_fee for="gender_male"
+                  input#gender_male name="user[gender]" type="radio" value="男"
+                  span = t "register.form.student.male"
+                label.sponsor_fee for="gender_female"
+                  input#gender_female name="user[gender]" type="radio" value="女"
+                  span = t "register.form.student.female"
         tr
-          td = t "register.form.student.birthday_title"
+          th = t "register.form.student.birthday_title"
           td colspan="2"= f.input :birthday, label: false
         tr
           th = t "register.form.student.address_title"
@@ -136,7 +136,7 @@
             p（3） ベトナムに進出する予定の企業からの正社員募集の受信。
             p 3.  会費　
             p　無料
-            
+
             h3.text-center = t "register.form.student.term_title"
             - t("register.form.student.term_content").each do |c|
               p = c.html_safe()

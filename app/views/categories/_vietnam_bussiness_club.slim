@@ -2,160 +2,158 @@
   - language = I18n.default_locale
   .row
     .col-sm-8
-      .col-sm-6
-        a.btn-primary data-target="#bussinessClub1" data-toggle="modal" type="button"
-          .well.well-lg.text-center.btn-primary.background-inherit
-            h4 = t "button.translation_service"
-        /! Modal
-        #bussinessClub1.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
-          .modal-dialog role="document"
-            .modal-content
-              .modal-header
-                button.close aria-label="Close" data-dismiss="modal" type="button"
-                  span aria-hidden="true"  &times;
-                h4#myModalLabel.modal-title
-              .modal-body
-                .panel.panel-primary
-                  .panel-heading
-                    h3.panel-title = t "categories.business_club.modal_title.translation_service"
-                  .panel-body
-                    - image = language == :vi ? '8_vi.png' : '8.png'
-                    p= image_tag image, class: 'width-100'
-              .modal-footer
-                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
-                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
-      .col-sm-6
-        a.btn-primary data-target="#bussinessClub2" data-toggle="modal" type="button"
-          .well.well-lg.text-center.btn-primary.background-inherit
-            h4 = t "button.announcement_service"
-        /! Modal
-        #bussinessClub2.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
-          .modal-dialog role="document"
-            .modal-content
-              .modal-header
-                button.close aria-label="Close" data-dismiss="modal" type="button"
-                  span aria-hidden="true"  &times;
-                h4#myModalLabel.modal-title
-              .modal-body
-                .panel.panel-primary
-                  .panel-heading
-                    h3.panel-title = t "categories.business_club.modal_title.announcement_service"
-                  .panel-body
-                    - image = language == :vi ? '9_vi.png' : '9.png'
-                    p= image_tag image, class: 'width-100'
-              .modal-footer
-                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
-                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
-      .col-sm-6
-        a.btn-primary data-target="#bussinessClub4" data-toggle="modal" type="button"
-          .well.well-lg.text-center.btn-primary.background-inherit
-            h4 = t "button.consultation_email"
-        /! Modal
-        #bussinessClub4.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
-          .modal-dialog role="document"
-            .modal-content
-              .modal-header
-                button.close aria-label="Close" data-dismiss="modal" type="button"
-                  span aria-hidden="true"  &times;
-                h4#myModalLabel.modal-title
-              .modal-body
-                .panel.panel-primary
-                  .panel-heading
-                    h3.panel-title = t "categories.business_club.modal_title.consultation_email"
-                  .panel-body
-                    - image = language == :vi ? '10_vi.png' : '10.png'
-                    p= image_tag image, class: 'width-100'
-              .modal-footer
-                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
-                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
-      .col-sm-6
-        a.btn-primary data-target="#bussinessClub5" data-toggle="modal" type="button"
-          .well.well-lg.text-center.btn-primary.background-inherit
-            h4 = t "button.discussion"
-        /! Modal
-        #bussinessClub5.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
-          .modal-dialog role="document"
-            .modal-content
-              .modal-header
-                button.close aria-label="Close" data-dismiss="modal" type="button"
-                  span aria-hidden="true"  &times;
-                h4#myModalLabel.modal-title
-              .modal-body
-                .panel.panel-primary
-                  .panel-heading
-                    h3.panel-title = t "categories.business_club.modal_title.discussion"
-                  .panel-body
-                    - image = language == :vi ? '11_vi.png' : '11.png'
-                    p= image_tag image, class: 'width-100'
-              .modal-footer
-                button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
-                a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
+      .col-sm-12
+        .col-sm-6
+          a.btn-primary data-target="#bussinessClub1" data-toggle="modal" type="button"
+            .well.well-lg.text-center.btn-primary.background-inherit
+              h4 = t "button.translation_service"
+          /! Modal
+          #bussinessClub1.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+            .modal-dialog role="document"
+              .modal-content
+                .modal-header
+                  button.close aria-label="Close" data-dismiss="modal" type="button"
+                    span aria-hidden="true"  &times;
+                  h4#myModalLabel.modal-title
+                .modal-body
+                  .panel.panel-primary
+                    .panel-heading
+                      h3.panel-title = t "categories.business_club.modal_title.translation_service"
+                    .panel-body
+                      - image = language == :vi ? '8_vi.png' : '8.png'
+                      p= image_tag image, class: 'width-100'
+                .modal-footer
+                  button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+                  a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
+        .col-sm-6
+          a.btn-primary data-target="#bussinessClub2" data-toggle="modal" type="button"
+            .well.well-lg.text-center.btn-primary.background-inherit
+              h4 = t "button.announcement_service"
+          /! Modal
+          #bussinessClub2.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+            .modal-dialog role="document"
+              .modal-content
+                .modal-header
+                  button.close aria-label="Close" data-dismiss="modal" type="button"
+                    span aria-hidden="true"  &times;
+                  h4#myModalLabel.modal-title
+                .modal-body
+                  .panel.panel-primary
+                    .panel-heading
+                      h3.panel-title = t "categories.business_club.modal_title.announcement_service"
+                    .panel-body
+                      - image = language == :vi ? '9_vi.png' : '9.png'
+                      p= image_tag image, class: 'width-100'
+                .modal-footer
+                  button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+                  a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
+        .col-sm-6
+          a.btn-primary data-target="#bussinessClub4" data-toggle="modal" type="button"
+            .well.well-lg.text-center.btn-primary.background-inherit
+              h4 = t "button.consultation_email"
+          /! Modal
+          #bussinessClub4.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+            .modal-dialog role="document"
+              .modal-content
+                .modal-header
+                  button.close aria-label="Close" data-dismiss="modal" type="button"
+                    span aria-hidden="true"  &times;
+                  h4#myModalLabel.modal-title
+                .modal-body
+                  .panel.panel-primary
+                    .panel-heading
+                      h3.panel-title = t "categories.business_club.modal_title.consultation_email"
+                    .panel-body
+                      - image = language == :vi ? '10_vi.png' : '10.png'
+                      p= image_tag image, class: 'width-100'
+                .modal-footer
+                  button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+                  a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
+        .col-sm-6
+          a.btn-primary data-target="#bussinessClub5" data-toggle="modal" type="button"
+            .well.well-lg.text-center.btn-primary.background-inherit
+              h4 = t "button.discussion"
+          /! Modal
+          #bussinessClub5.modal.fade aria-labelledby="myModalLabel" role="dialog" tabindex="-1"
+            .modal-dialog role="document"
+              .modal-content
+                .modal-header
+                  button.close aria-label="Close" data-dismiss="modal" type="button"
+                    span aria-hidden="true"  &times;
+                  h4#myModalLabel.modal-title
+                .modal-body
+                  .panel.panel-primary
+                    .panel-heading
+                      h3.panel-title = t "categories.business_club.modal_title.discussion"
+                    .panel-body
+                      - image = language == :vi ? '11_vi.png' : '11.png'
+                      p= image_tag image, class: 'width-100'
+                .modal-footer
+                  button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
+                  a.btn.btn-default href="https://docs.google.com/forms/d/e/1FAIpQLSeqqHXNnOUZ-3GsnS5Ow3ZgI_qp9zjZFMfqjSFrjzoGSoJfoA/viewform" type="button" = t "button.inquiry"
 
-    /ベトナムの視察旅行
-    .col-sm-8
-      .panel.panel-default
-        .panel-heading
-          h3.panel-title = t "categories.business_club.activities.title"
-        .panel-body
-          - t("categories.business_club.activities.post.first").each do |c|
-            p = c
-          p = image_tag 'shisatsu/1.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.second").each do |c|
-            p = c
-          p = image_tag 'shisatsu/2.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.third").each do |c|
-            p = c
-          p = image_tag 'shisatsu/3.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.fourth").each do |c|
-            p = c
-          p = image_tag 'shisatsu/4.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.fifth").each do |c|
-            p = c
-          p = image_tag 'shisatsu/5.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.sixth").each do |c|
-            p = c
-          p = image_tag 'shisatsu/6.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.seventh").each do |c|
-            p = c
-          p = image_tag 'shisatsu/7.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.eighth").each do |c|
-            p = c
-          p = image_tag 'shisatsu/8.jpg', class: 'width-100'
-          p = image_tag 'shisatsu/9.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.nineth").each do |c|
-            p = c
-          p = image_tag 'shisatsu/10.jpg', class: 'width-100'
-          - t("categories.business_club.activities.post.tenth").each do |c|
-            p = c
-          p = t "categories.business_club.activities.end"
+      /ベトナムの視察旅行
+      .col-sm-12
+        .panel.panel-default
+          .panel-heading
+            h3.panel-title = t "categories.business_club.activities.title"
+          .panel-body
+            - t("categories.business_club.activities.post.first").each do |c|
+              p = c
+            p = image_tag 'shisatsu/1.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.second").each do |c|
+              p = c
+            p = image_tag 'shisatsu/2.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.third").each do |c|
+              p = c
+            p = image_tag 'shisatsu/3.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.fourth").each do |c|
+              p = c
+            p = image_tag 'shisatsu/4.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.fifth").each do |c|
+              p = c
+            p = image_tag 'shisatsu/5.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.sixth").each do |c|
+              p = c
+            p = image_tag 'shisatsu/6.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.seventh").each do |c|
+              p = c
+            p = image_tag 'shisatsu/7.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.eighth").each do |c|
+              p = c
+            p = image_tag 'shisatsu/8.jpg', class: 'width-100'
+            p = image_tag 'shisatsu/9.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.nineth").each do |c|
+              p = c
+            p = image_tag 'shisatsu/10.jpg', class: 'width-100'
+            - t("categories.business_club.activities.post.tenth").each do |c|
+              p = c
+            p = t "categories.business_club.activities.end"
 
-    /ベトナムの視察旅行
-    .col-sm-8
-      .panel.panel-default
-        .panel-heading
-          h3.panel-title = t "categories.business_club.seminars.title"
-        .panel-body
-          - t("categories.business_club.seminars.post.first").each do |c|
-            p = c
-          p = image_tag 'event/senpainokoe/01.jpg', class: 'width-100'
-          - t("categories.business_club.seminars.post.second").each do |c|
-            p = c
-          p = image_tag 'event/senpainokoe/02.jpg', class: 'width-100'
-          - t("categories.business_club.seminars.post.third").each do |c|
-            p = c
-          p = image_tag 'event/senpainokoe/03.jpg', class: 'width-100'
-          - t("categories.business_club.seminars.post.fourth").each do |c|
-            p = c
-          p = image_tag 'event/senpainokoe/04.png', class: 'width-100'
-          - t("categories.business_club.seminars.post.fifth").each do |c|
-            p = c
-          p = image_tag 'event/senpainokoe/05.jpg', class: 'width-100'
-          - t("categories.business_club.seminars.post.sixth").each do |c|
-            p = c
-          p = t "categories.business_club.seminars.end"
-
-
-
+      /ベトナムの視察旅行
+      .col-sm-12
+        .panel.panel-default
+          .panel-heading
+            h3.panel-title = t "categories.business_club.seminars.title"
+          .panel-body
+            - t("categories.business_club.seminars.post.first").each do |c|
+              p = c
+            p = image_tag 'event/senpainokoe/01.jpg', class: 'width-100'
+            - t("categories.business_club.seminars.post.second").each do |c|
+              p = c
+            p = image_tag 'event/senpainokoe/02.jpg', class: 'width-100'
+            - t("categories.business_club.seminars.post.third").each do |c|
+              p = c
+            p = image_tag 'event/senpainokoe/03.jpg', class: 'width-100'
+            - t("categories.business_club.seminars.post.fourth").each do |c|
+              p = c
+            p = image_tag 'event/senpainokoe/04.png', class: 'width-100'
+            - t("categories.business_club.seminars.post.fifth").each do |c|
+              p = c
+            p = image_tag 'event/senpainokoe/05.jpg', class: 'width-100'
+            - t("categories.business_club.seminars.post.sixth").each do |c|
+              p = c
+            p = t "categories.business_club.seminars.end"
 
 
     .col-sm-4

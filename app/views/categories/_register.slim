@@ -11,28 +11,38 @@
       p
         a data-target="#myRule1" data-toggle="modal" type="button" = t "categories.register.member.help.procedure"
       /! Modal
-      #myRule1.modal.fade role="dialog"
-        modal-dialog
-        /! Modal content
-        .modal-content
-          .modal-body
-            button.close data-dismiss="modal" type="button"  &times;
-            p= image_tag 'rules/rule1.jpg', class: 'width-100'
-            button.btn.btn-default data-dismiss="modal" type="button"= t "button.close_modal"
+      #myRule1.modal.fade role="dialog" tabindex="-1"
+        .modal-dialog.modal-lg role="document"
+          .modal-content
+            .modal-header
+              button.close aria-label="Close" data-dismiss="modal" type="button"
+                span aria-hidden="true"  &times;
+              h4.modal-title
+            .modal-body
+              h2.text-center = t "register.form.member.guide_title"
+              - t("register.form.member.guide_content").each do |c|
+                p = c.html_safe()
+            .modal-footer
+              button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
       /Rule2
       /! Trigger the modal with a text
       p
         a data-target="#myRule2" data-toggle="modal" type="button" = t "categories.register.member.help.support"
       /! Modal
-      #myRule2.modal.fade role="dialog"
-        modal-dialog
-        /! Modal content
-        .modal-content
-          .modal-body
-            button.close data-dismiss="modal" type="button"  &times;
-            p= image_tag 'rules/rule2.jpg', class: 'width-100'
-            button.btn.btn-default data-dismiss="modal" type="button"= t "button.close_modal"
+      #myRule2.modal.fade role="dialog" tabindex="-1"
+        .modal-dialog.modal-lg role="document"
+          .modal-content
+            .modal-header
+              button.close aria-label="Close" data-dismiss="modal" type="button"
+                span aria-hidden="true"  &times;
+              h4.modal-title
+            .modal-body
+              h2.text-center = t "register.form.member.term_title"
+              - t("register.form.member.term_content").each do |c|
+                p = c.html_safe()
+            .modal-footer
+              button.btn.btn-default data-dismiss="modal" type="button" = t "button.close_modal"
 
       br
       br
