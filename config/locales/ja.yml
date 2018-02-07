@@ -53,6 +53,8 @@ ja:
       content:
         - "留学生はベトナムに関心のある"
         - "企業との出会いを求めています"
+    button:
+      register: "賛助会員<br/><br/>入会のご案内"
   categories:
     about_us:
       intro:

@@ -181,8 +181,7 @@
       - cat = Category.where(title: '入会のご案内').last
       a.btn-primary href="#{category_path cat}"
         .well.well-lg.text-center.btn-primary.background-inherit
-          h4 = t "button.member_register"
-          h4 = t "button.register"
+          h4 = t("home.button.register").html_safe
       a.btn-success href="document/Vietnam-club-information.docx" download=""
         .well.well-lg.text-center.btn-success.background-inherit
           h4 = t "home.banner.title"

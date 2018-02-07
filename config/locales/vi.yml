@@ -53,6 +53,8 @@ vi:
       content:
         - "Du học sinh mong muốn được gặp gỡ"
         - "các doanh nghiệp có quan tâm đến Việt Nam"
+    button:
+      register: "HƯỚNG DẪN ĐĂNG KÍ THÀNH VIÊN"
   categories:
     about_us:
       intro:
