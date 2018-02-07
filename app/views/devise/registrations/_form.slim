@@ -64,7 +64,7 @@
               span aria-hidden="true"  &times;
             h4.modal-title
           .modal-body
-            h2.text-center = t "register.form.member.guide_title"
+            h3.text-center = t "register.form.member.guide_title"
             - t("register.form.member.guide_content").each do |c|
               p = c.html_safe()
 
@@ -80,7 +80,7 @@
         tr
           th.col-sm-2 rowspan="2" = t "register.form.student.vocal_title"
           td= f.input :vocal, label: false, input_html: { class: 'table-input' }, placeholder: t("register.form.student.vocal_placeholder")
-          td.col-sm-2.text-center = t "register.form.student.gender_title"
+          th.col-sm-2.text-center = t "register.form.student.gender_title"
         tr
           td = f.input :enterprise_name, label: false, input_html: { class: 'table-input' }
           td
@@ -125,17 +125,9 @@
               span aria-hidden="true"  &times;
             h4.modal-title
           .modal-body
-            h2.text-center = t "register.form.student.info_title"
-            p 1.  目的
-            p 一般社団法人は、ベトナム留学生と日本企業との人材交流、ベトナム企業と日本企業の経済交流を通じて、両国間の友好関係の発展に寄与するため、2016年8月に発足いたしました。
-            p 両国の発展にご尽力いただける方（個人・事業者・団体）を賛助会員として募集している同時、無料会員としてベトナム人留学生の皆さんの参加を歓迎しています。
-            p 2.  特典
-            p ベトナム人留学生会員のみ活用可能なサービスは以下のようです。
-            p（1） 日本企業との交流会、就職活動支援セミナー等Vietnam club主催のイベントへの参加。
-            p（2） アルバイト募集情報の受信。
-            p（3） ベトナムに進出する予定の企業からの正社員募集の受信。
-            p 3.  会費　
-            p　無料
+            h3.text-center = t "register.form.student.info_title"
+            - t("register.form.student.info_content").each do |c|
+              p = c.html_safe()
 
             h3.text-center = t "register.form.student.term_title"
             - t("register.form.student.term_content").each do |c|
